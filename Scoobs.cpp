@@ -116,7 +116,7 @@ int main(int argc, char **argv)
 
             // Now let's view our face poses on the screen.
             win.clear_overlay();
-            
+            win.set_image(img);
             win.add_overlay(render_face_detections(shapes));
 
             // We can also extract copies of each face that are cropped, rotated upright,
