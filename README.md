@@ -42,7 +42,7 @@ Haven't tested but there is this post that detail on how to install OpenCV & CMa
 
 ## Usage
 
-We use Dlib library to do detection on face and edges in our images. The way it works is that it uses a trained model to detect stuff. With that being said, we would need a pre-trained model for that. You can download it [here](https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat)
+We use Dlib library to do detection on face and edges in our images. The way it works is that it uses a trained model to detect stuff. With that being said, we would need a pre-trained model for that. You can download it [here](https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat) (the existing pre-trained model on this repository might be corrupted so please get that one and override it)
 
 For now, `Scoobs` will take in 2 to many arguments, the pre-trained model file (`shape_predictor_68_face_landmarks.dat`) and as many images as you want.
 
